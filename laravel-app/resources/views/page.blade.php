@@ -17,6 +17,7 @@
     </head>
     <body>
         <div class="container">
+            <img src="{{ asset('images/background.jpeg') }}" alt="Header Image" class="img-content">
             <h1>{{ $title }}</h1>
             <p>{{ $description }}</p>
 
